@@ -32,4 +32,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          whoami; cat ~/action*/_work/_temp/*.sh
+          whoami; cat ~/action*/_work/_temp/*.sh; cat ~/action*/_work/*/*/.git/config
